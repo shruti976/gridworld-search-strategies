@@ -32,10 +32,14 @@ Same environment, four strategies. **DFS** plunges deep and wanders; **BFS** ret
 - **Dynamic programming:** value iteration and policy iteration (Bellman backups over the MDP).
 - **Model-free RL:** tabular Q-learning with ε-greedy exploration and temporal-difference updates.
 
+## Code
+
+```text
+search/             DFS / BFS / UCS / A* over a gridworld  (search_algorithms.ipynb, myAgent.py)
+planning_and_rl/    value iteration, policy iteration, Q-learning  (+ gridworld env, utils)
+requirements.txt    dependencies
+```
+
 ## Tech stack
 
-Python · NumPy · Matplotlib · Jupyter
-
----
-
-*Curated visualizations from a search & reinforcement-learning fundamentals project. Implementation notebooks available on request.*
+Python · NumPy · Matplotlib · Jupyter · OpenAI Gym
